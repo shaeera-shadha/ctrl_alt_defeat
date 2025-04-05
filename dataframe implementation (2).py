@@ -17,7 +17,7 @@ print(df1["Name"])
 df2 = pd.read_csv(r"C:\Users\Shaeera Shadha\Downloads\student-dataset.csv")
 print("\nStudent Data Frame:")
 print(df2)
-"""
+
 print("\nStudent Names:")
 print(df2["name"])
 
@@ -37,7 +37,7 @@ print("\nDataset Info:")
 df2.info()  
 
 print("\nDataset Description:")
-print(df2.describe())"""
+print(df2.describe())
 
 print("\nMinimum Language Grade:", df2["language.grade"].min())
 print("Maximum English Grade:", df2["english.grade"].max())
